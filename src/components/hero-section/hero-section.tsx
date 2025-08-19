@@ -27,8 +27,10 @@ export const HeroSection = () => {
               </div>
               <div className="text-white flex flex-col gap-2 mt-5 items-center md:items-start lg:items-start">
                 <Button className="rounded-full w-fit" asChild>
-                  <Link href="/criar-loja">Criar loja grátis</Link>
-                  <ArrowRight className="h-4 w-4 " />
+                  <Link href="/criar-loja">
+                    Criar loja grátis
+                    <ArrowRight className="h-4 w-4 " />
+                  </Link>
                 </Button>
 
                 <p className="text-gray-300 text-body-xs">
