@@ -1,7 +1,9 @@
+import { Search } from "@/components/search";
+
 export default function BlogPage() {
   return (
     <div className="flex flex-col py-24 flex-grow h-full">
-      {/*TAG*/}
+      {/* TAG  */}
       <header className="">
         <div className="container space-y-6 flex flex-col items-start justify-between md:flex-row md:items-end lg:items-end">
           <div className="flex flex-col gap-4 ">
@@ -14,6 +16,9 @@ export default function BlogPage() {
           </div>
         </div>
       </header>
+      {/* Search */}
+
+      <Search />
     </div>
   );
 }
